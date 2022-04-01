@@ -1,0 +1,34 @@
+
+[2022-04-01T10:00:12.728Z] Scanning project root at /home/tc/projects/test-symlink
+→ Includes: **/*garden.y*ml
+→ Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2022-04-01T10:00:12.749Z] Found 2 files in project root /home/tc/projects/test-symlink
+
+[2022-04-01T10:00:12.782Z] Getting status...
+
+[2022-04-01T10:00:13.670Z] Getting status... → Cached
+
+[2022-04-01T10:00:13.674Z] Run with --force-refresh to force a refresh of provider statuses.
+
+[2022-04-01T10:00:13.694Z] Scanning module root at /home/tc/projects/test-symlink
+→ Includes: (none)
+→ Excludes: .git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2022-04-01T10:00:13.729Z] Found 4 files in module root /home/tc/projects/test-symlink
+
+[2022-04-01T10:00:13.742Z] Syncing module sources (3 files)...
+
+[2022-04-01T10:00:13.742Z] Syncing module sources (3 files)... → Done (took 0 sec)
+
+[2022-04-01T10:00:13.746Z] Getting build status for v-921d8291bc...
+
+[2022-04-01T10:00:13.752Z] Building version v-921d8291bc...
+
+[2022-04-01T10:00:13.759Z] Building version v-921d8291bc... → Done (took 0 sec)
+
+[2022-04-01T10:00:13.766Z] Done! 
+
+[2022-04-01T10:00:13.767Z] Done flushing all events and log entries.
+
+[2022-04-01T10:00:14.269Z] Done flushing all events and log entries.

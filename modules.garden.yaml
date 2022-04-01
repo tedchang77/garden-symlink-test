@@ -1,0 +1,10 @@
+kind: Module
+
+# The type of this module.
+type: exec
+local: true
+# The name of this module.
+name: symlink-test
+description: common to all REST services
+
+

@@ -1,0 +1,162 @@
+{"msg":"Scanning for configs","section":"","timestamp":"2022-04-01T09:50:17.433Z","level":"silly","allSections":[]}
+{"msg":"Scanning for configs in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:17.440Z","level":"silly","allSections":[]}
+{"msg":"Scanning project root at /home/tc/projects/test-symlink\n→ Includes: **/*garden.y*ml\n→ Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**","section":"","timestamp":"2022-04-01T09:50:17.440Z","level":"debug","allSections":[]}
+{"msg":"Calling git with args 'diff-index --name-only HEAD /home/tc/projects/test-symlink' in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:17.442Z","level":"silly","allSections":[]}
+{"msg":"Calling git with args 'ls-files --ignored --cached --exclude /home/tc/projects/test-symlink/.garden --exclude-per-directory .gardenignore' in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:17.447Z","level":"silly","allSections":[]}
+{"msg":"Calling git with args 'ls-files -s --others --cached --exclude /home/tc/projects/test-symlink/.garden --exclude-per-directory .gardenignore :(glob)**/*garden.y*ml' in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:17.452Z","level":"silly","allSections":[]}
+{"msg":"Found 2 files in project root /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:17.462Z","level":"debug","allSections":[]}
+{"msg":"Load module and workflow configs from /home/tc/projects/test-symlink/modules.garden.yaml","section":"","timestamp":"2022-04-01T09:50:17.463Z","level":"silly","allSections":[]}
+{"msg":"Load module and workflow configs from /home/tc/projects/test-symlink/project.garden.yaml","section":"","timestamp":"2022-04-01T09:50:17.463Z","level":"silly","allSections":[]}
+{"msg":"Loaded module and workflow configs from /home/tc/projects/test-symlink/modules.garden.yaml","section":"","timestamp":"2022-04-01T09:50:17.477Z","level":"silly","allSections":[]}
+{"msg":"Loaded module and workflow configs from /home/tc/projects/test-symlink/project.garden.yaml","section":"","timestamp":"2022-04-01T09:50:17.477Z","level":"silly","allSections":[]}
+{"msg":"Adding module symlink-test","section":"","timestamp":"2022-04-01T09:50:17.479Z","level":"silly","allSections":[]}
+{"msg":"Scanned and found 1 modules and 0 workflows","section":"","timestamp":"2022-04-01T09:50:17.479Z","level":"silly","allSections":[]}
+{"msg":"Resolving providers","section":"","timestamp":"2022-04-01T09:50:17.493Z","level":"silly","allSections":[]}
+{"msg":"Getting status...","section":"providers","timestamp":"2022-04-01T09:50:17.494Z","level":"info","allSections":["providers"]}
+{"msg":"Loading plugins","section":"","timestamp":"2022-04-01T09:50:17.496Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin container","section":"","timestamp":"2022-04-01T09:50:17.810Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin exec","section":"","timestamp":"2022-04-01T09:50:17.819Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin hadolint","section":"","timestamp":"2022-04-01T09:50:17.822Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin kubernetes","section":"","timestamp":"2022-04-01T09:50:17.868Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin local-kubernetes","section":"","timestamp":"2022-04-01T09:50:17.875Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin octant","section":"","timestamp":"2022-04-01T09:50:17.876Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin openfaas","section":"","timestamp":"2022-04-01T09:50:17.881Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin terraform","section":"","timestamp":"2022-04-01T09:50:17.886Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin google-app-engine","section":"","timestamp":"2022-04-01T09:50:17.888Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin google-cloud-function","section":"","timestamp":"2022-04-01T09:50:17.890Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin local-google-cloud-functions","section":"","timestamp":"2022-04-01T09:50:17.890Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin npm-package","section":"","timestamp":"2022-04-01T09:50:17.890Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin templated","section":"","timestamp":"2022-04-01T09:50:17.897Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin conftest","section":"","timestamp":"2022-04-01T09:50:17.900Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin conftest-container","section":"","timestamp":"2022-04-01T09:50:17.901Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin conftest-kubernetes","section":"","timestamp":"2022-04-01T09:50:17.902Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin jib","section":"","timestamp":"2022-04-01T09:50:17.916Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugin maven-container","section":"","timestamp":"2022-04-01T09:50:17.925Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin container","section":"","timestamp":"2022-04-01T09:50:17.933Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin container","section":"","timestamp":"2022-04-01T09:50:18.280Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin hadolint","section":"","timestamp":"2022-04-01T09:50:18.280Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin hadolint","section":"","timestamp":"2022-04-01T09:50:18.283Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin jib","section":"","timestamp":"2022-04-01T09:50:18.283Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin jib","section":"","timestamp":"2022-04-01T09:50:18.286Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin kubernetes","section":"","timestamp":"2022-04-01T09:50:18.286Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin kubernetes","section":"","timestamp":"2022-04-01T09:50:18.290Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin local-kubernetes","section":"","timestamp":"2022-04-01T09:50:18.290Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin local-kubernetes","section":"","timestamp":"2022-04-01T09:50:18.293Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin octant","section":"","timestamp":"2022-04-01T09:50:18.293Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin octant","section":"","timestamp":"2022-04-01T09:50:18.296Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin openfaas","section":"","timestamp":"2022-04-01T09:50:18.296Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin openfaas","section":"","timestamp":"2022-04-01T09:50:18.300Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin terraform","section":"","timestamp":"2022-04-01T09:50:18.300Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin terraform","section":"","timestamp":"2022-04-01T09:50:18.306Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin google-app-engine","section":"","timestamp":"2022-04-01T09:50:18.306Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin google-app-engine","section":"","timestamp":"2022-04-01T09:50:18.309Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin google-cloud-function","section":"","timestamp":"2022-04-01T09:50:18.310Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin google-cloud-function","section":"","timestamp":"2022-04-01T09:50:18.312Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin local-google-cloud-functions","section":"","timestamp":"2022-04-01T09:50:18.313Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin local-google-cloud-functions","section":"","timestamp":"2022-04-01T09:50:18.316Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin exec","section":"","timestamp":"2022-04-01T09:50:18.316Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin exec","section":"","timestamp":"2022-04-01T09:50:18.319Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin npm-package","section":"","timestamp":"2022-04-01T09:50:18.319Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin npm-package","section":"","timestamp":"2022-04-01T09:50:18.323Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin templated","section":"","timestamp":"2022-04-01T09:50:18.323Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin templated","section":"","timestamp":"2022-04-01T09:50:18.327Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin conftest","section":"","timestamp":"2022-04-01T09:50:18.327Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin conftest","section":"","timestamp":"2022-04-01T09:50:18.330Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin conftest-container","section":"","timestamp":"2022-04-01T09:50:18.331Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin conftest-container","section":"","timestamp":"2022-04-01T09:50:18.334Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin conftest-kubernetes","section":"","timestamp":"2022-04-01T09:50:18.334Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin conftest-kubernetes","section":"","timestamp":"2022-04-01T09:50:18.337Z","level":"silly","allSections":[]}
+{"msg":"Validating plugin maven-container","section":"","timestamp":"2022-04-01T09:50:18.337Z","level":"silly","allSections":[]}
+{"msg":"Done loading plugin maven-container","section":"","timestamp":"2022-04-01T09:50:18.342Z","level":"silly","allSections":[]}
+{"msg":"Loaded plugins: exec, container, templated","section":"","timestamp":"2022-04-01T09:50:18.343Z","level":"silly","allSections":[]}
+{"msg":"TaskGraph: this.index before processing","section":"","timestamp":"2022-04-01T09:50:18.355Z","level":"silly","allSections":[]}
+{"msg":"---------------------------------------","section":"","timestamp":"2022-04-01T09:50:18.355Z","level":"silly","allSections":[]}
+{"msg":"{}","section":"","timestamp":"2022-04-01T09:50:18.355Z","level":"silly","allSections":[]}
+{"msg":"Processing tasks...","section":"","timestamp":"2022-04-01T09:50:18.356Z","level":"silly","allSections":[]}
+{"msg":"Remaining tasks 3","section":"","timestamp":"2022-04-01T09:50:18.356Z","level":"silly","allSections":[]}
+{"msg":"Currently in progress [resolve-provider.exec.23681f00-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.container.23681f01-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.templated.23681f02-b1a1-11ec-bef4-a3721546ddbf]","section":"","timestamp":"2022-04-01T09:50:18.356Z","level":"silly","allSections":[]}
+{"msg":"Processing task resolve-provider.exec.23681f00-b1a1-11ec-bef4-a3721546ddbf","metadata":{"task":{"type":"resolve-provider","key":"resolve-provider.exec","status":"active","uid":"23681f00-b1a1-11ec-bef4-a3721546ddbf","versionString":"0.12.38"}},"section":"tasks","timestamp":"2022-04-01T09:50:18.357Z","level":"silly","allSections":["tasks"]}
+{"msg":"Currently in progress [resolve-provider.exec.23681f00-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.container.23681f01-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.templated.23681f02-b1a1-11ec-bef4-a3721546ddbf]","section":"","timestamp":"2022-04-01T09:50:18.357Z","level":"silly","allSections":[]}
+{"msg":"Resolving template strings for provider exec","section":"","timestamp":"2022-04-01T09:50:18.357Z","level":"silly","allSections":["providers"]}
+{"msg":"Validating exec config","section":"","timestamp":"2022-04-01T09:50:18.358Z","level":"silly","allSections":["providers"]}
+{"msg":"Calling configureProvider on exec","section":"","timestamp":"2022-04-01T09:50:18.359Z","level":"silly","allSections":["providers"]}
+{"msg":"Processing task resolve-provider.container.23681f01-b1a1-11ec-bef4-a3721546ddbf","metadata":{"task":{"type":"resolve-provider","key":"resolve-provider.container","status":"active","uid":"23681f01-b1a1-11ec-bef4-a3721546ddbf","versionString":"0.12.38"}},"section":"tasks","timestamp":"2022-04-01T09:50:18.359Z","level":"silly","allSections":["tasks"]}
+{"msg":"Currently in progress [resolve-provider.exec.23681f00-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.container.23681f01-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.templated.23681f02-b1a1-11ec-bef4-a3721546ddbf]","section":"","timestamp":"2022-04-01T09:50:18.359Z","level":"silly","allSections":[]}
+{"msg":"Resolving template strings for provider container","section":"","timestamp":"2022-04-01T09:50:18.359Z","level":"silly","allSections":["providers"]}
+{"msg":"Validating container config","section":"","timestamp":"2022-04-01T09:50:18.360Z","level":"silly","allSections":["providers"]}
+{"msg":"Calling configureProvider on container","section":"","timestamp":"2022-04-01T09:50:18.360Z","level":"silly","allSections":["providers"]}
+{"msg":"Processing task resolve-provider.templated.23681f02-b1a1-11ec-bef4-a3721546ddbf","metadata":{"task":{"type":"resolve-provider","key":"resolve-provider.templated","status":"active","uid":"23681f02-b1a1-11ec-bef4-a3721546ddbf","versionString":"0.12.38"}},"section":"tasks","timestamp":"2022-04-01T09:50:18.361Z","level":"silly","allSections":["tasks"]}
+{"msg":"Currently in progress [resolve-provider.exec.23681f00-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.container.23681f01-b1a1-11ec-bef4-a3721546ddbf, resolve-provider.templated.23681f02-b1a1-11ec-bef4-a3721546ddbf]","section":"","timestamp":"2022-04-01T09:50:18.361Z","level":"silly","allSections":[]}
+{"msg":"Resolving template strings for provider templated","section":"","timestamp":"2022-04-01T09:50:18.361Z","level":"silly","allSections":["providers"]}
+{"msg":"Validating templated config","section":"","timestamp":"2022-04-01T09:50:18.361Z","level":"silly","allSections":["providers"]}
+{"msg":"Calling configureProvider on templated","section":"","timestamp":"2022-04-01T09:50:18.362Z","level":"silly","allSections":["providers"]}
+{"msg":"Creating ActionRouter with 3 configured providers","section":"","timestamp":"2022-04-01T09:50:18.363Z","level":"silly","allSections":[]}
+{"msg":"Creating ActionRouter with 3 configured providers","section":"","timestamp":"2022-04-01T09:50:18.363Z","level":"silly","allSections":[]}
+{"msg":"Creating ActionRouter with 3 configured providers","section":"","timestamp":"2022-04-01T09:50:18.364Z","level":"silly","allSections":[]}
+{"msg":"Calling 'configureProvider' handler on 'exec'","section":"","timestamp":"2022-04-01T09:50:18.373Z","level":"silly","allSections":[]}
+{"msg":"Calling 'configureProvider' handler on 'container'","section":"","timestamp":"2022-04-01T09:50:18.373Z","level":"silly","allSections":[]}
+{"msg":"Calling 'configureProvider' handler on 'templated'","section":"","timestamp":"2022-04-01T09:50:18.373Z","level":"silly","allSections":[]}
+{"msg":"Returned default 'configureProvider' handler for 'exec'","section":"","timestamp":"2022-04-01T09:50:18.374Z","level":"silly","allSections":[]}
+{"msg":"Returned default 'configureProvider' handler for 'container'","section":"","timestamp":"2022-04-01T09:50:18.374Z","level":"silly","allSections":[]}
+{"msg":"Returned default 'configureProvider' handler for 'templated'","section":"","timestamp":"2022-04-01T09:50:18.374Z","level":"silly","allSections":[]}
+{"msg":"Called 'configureProvider' handler on 'exec'","section":"","timestamp":"2022-04-01T09:50:18.374Z","level":"silly","allSections":[]}
+{"msg":"Called 'configureProvider' handler on 'container'","section":"","timestamp":"2022-04-01T09:50:18.374Z","level":"silly","allSections":[]}
+{"msg":"Called 'configureProvider' handler on 'templated'","section":"","timestamp":"2022-04-01T09:50:18.375Z","level":"silly","allSections":[]}
+{"msg":"Validating exec config returned from configureProvider handler","section":"","timestamp":"2022-04-01T09:50:18.375Z","level":"silly","allSections":["providers"]}
+{"msg":"Ensuring exec provider is ready","section":"","timestamp":"2022-04-01T09:50:18.376Z","level":"silly","allSections":["providers"]}
+{"msg":"Validating container config returned from configureProvider handler","section":"","timestamp":"2022-04-01T09:50:18.376Z","level":"silly","allSections":["providers"]}
+{"msg":"Ensuring container provider is ready","section":"","timestamp":"2022-04-01T09:50:18.376Z","level":"silly","allSections":["providers"]}
+{"msg":"Validating templated config returned from configureProvider handler","section":"","timestamp":"2022-04-01T09:50:18.377Z","level":"silly","allSections":["providers"]}
+{"msg":"Ensuring templated provider is ready","section":"","timestamp":"2022-04-01T09:50:18.379Z","level":"silly","allSections":["providers"]}
+{"msg":"Getting status for exec","section":"","timestamp":"2022-04-01T09:50:18.382Z","level":"silly","allSections":["providers"]}
+{"msg":"Checking provider status cache for exec at /home/tc/projects/test-symlink/.garden/cache/provider-statuses/exec.default.json","section":"","timestamp":"2022-04-01T09:50:18.383Z","level":"silly","allSections":["providers"]}
+{"msg":"Getting status for container","section":"","timestamp":"2022-04-01T09:50:18.383Z","level":"silly","allSections":["providers"]}
+{"msg":"Checking provider status cache for container at /home/tc/projects/test-symlink/.garden/cache/provider-statuses/container.default.json","section":"","timestamp":"2022-04-01T09:50:18.383Z","level":"silly","allSections":["providers"]}
+{"msg":"Getting status for templated","section":"","timestamp":"2022-04-01T09:50:18.383Z","level":"silly","allSections":["providers"]}
+{"msg":"Checking provider status cache for templated at /home/tc/projects/test-symlink/.garden/cache/provider-statuses/templated.default.json","section":"","timestamp":"2022-04-01T09:50:18.384Z","level":"silly","allSections":["providers"]}
+{"msg":"Completed task resolve-provider.exec.23681f00-b1a1-11ec-bef4-a3721546ddbf (took 0.035 sec)","metadata":{"task":{"type":"resolve-provider","key":"resolve-provider.exec","status":"success","uid":"23681f00-b1a1-11ec-bef4-a3721546ddbf","versionString":"0.12.38","durationMs":35}},"section":"tasks","timestamp":"2022-04-01T09:50:18.392Z","level":"silly","allSections":["tasks"]}
+{"msg":"Remaining tasks 2","section":"","timestamp":"2022-04-01T09:50:18.392Z","level":"silly","allSections":[]}
+{"msg":"Completed task resolve-provider.container.23681f01-b1a1-11ec-bef4-a3721546ddbf (took 0.034 sec)","metadata":{"task":{"type":"resolve-provider","key":"resolve-provider.container","status":"success","uid":"23681f01-b1a1-11ec-bef4-a3721546ddbf","versionString":"0.12.38","durationMs":34}},"section":"tasks","timestamp":"2022-04-01T09:50:18.393Z","level":"silly","allSections":["tasks"]}
+{"msg":"Remaining tasks 1","section":"","timestamp":"2022-04-01T09:50:18.393Z","level":"silly","allSections":[]}
+{"msg":"Completed task resolve-provider.templated.23681f02-b1a1-11ec-bef4-a3721546ddbf (took 0.033 sec)","metadata":{"task":{"type":"resolve-provider","key":"resolve-provider.templated","status":"success","uid":"23681f02-b1a1-11ec-bef4-a3721546ddbf","versionString":"0.12.38","durationMs":33}},"section":"tasks","timestamp":"2022-04-01T09:50:18.394Z","level":"silly","allSections":["tasks"]}
+{"msg":"Remaining tasks 0","section":"","timestamp":"2022-04-01T09:50:18.394Z","level":"silly","allSections":[]}
+{"msg":"Remaining tasks 0","section":"","timestamp":"2022-04-01T09:50:18.394Z","level":"silly","allSections":[]}
+{"msg":"Getting status... - Cached","section":"providers","timestamp":"2022-04-01T09:50:18.395Z","level":"info","allSections":["providers"]}
+{"msg":"Run with --force-refresh to force a refresh of provider statuses.","section":"","timestamp":"2022-04-01T09:50:18.398Z","level":"info","allSections":["providers"]}
+{"msg":"Resolved providers: exec, container, templated","section":"","timestamp":"2022-04-01T09:50:18.400Z","level":"silly","allSections":["providers"]}
+{"msg":"Resolving module configs","section":"","timestamp":"2022-04-01T09:50:18.401Z","level":"silly","allSections":[]}
+{"msg":"Calling configure handler for exec module 'symlink-test'","section":"","timestamp":"2022-04-01T09:50:18.409Z","level":"silly","allSections":[]}
+{"msg":"Called configure handler for exec module 'symlink-test'","section":"","timestamp":"2022-04-01T09:50:18.413Z","level":"silly","allSections":[]}
+{"msg":"Resolving version for module symlink-test","section":"","timestamp":"2022-04-01T09:50:18.414Z","level":"silly","allSections":[]}
+{"msg":"Scanning module root at /home/tc/projects/test-symlink\n→ Includes: (none)\n→ Excludes: .git,.gitmodules,.garden/**/*,debug-info*/**","section":"","timestamp":"2022-04-01T09:50:18.416Z","level":"debug","allSections":[]}
+{"msg":"Calling git with args 'diff-index --name-only HEAD /home/tc/projects/test-symlink' in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:18.417Z","level":"silly","allSections":[]}
+{"msg":"Calling git with args 'ls-files --ignored --cached --exclude /home/tc/projects/test-symlink/.garden --exclude-per-directory .gardenignore' in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:18.425Z","level":"silly","allSections":[]}
+{"msg":"Calling git with args 'ls-files -s --others --cached --exclude /home/tc/projects/test-symlink/.garden --exclude-per-directory .gardenignore' in /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:18.431Z","level":"silly","allSections":[]}
+{"msg":"Found 3 files in module root /home/tc/projects/test-symlink","section":"","timestamp":"2022-04-01T09:50:18.442Z","level":"debug","allSections":[]}
+{"msg":"Starting processModules","section":"","timestamp":"2022-04-01T09:50:18.449Z","level":"silly","allSections":[]}
+{"msg":"TaskGraph: this.index before processing","section":"","timestamp":"2022-04-01T09:50:18.450Z","level":"silly","allSections":[]}
+{"msg":"---------------------------------------","section":"","timestamp":"2022-04-01T09:50:18.451Z","level":"silly","allSections":[]}
+{"msg":"{}","section":"","timestamp":"2022-04-01T09:50:18.451Z","level":"silly","allSections":[]}
+{"msg":"Processing task stage-build.symlink-test.2376ec11-b1a1-11ec-bef4-a3721546ddbf","metadata":{"task":{"type":"stage-build","key":"stage-build.symlink-test","status":"active","uid":"2376ec11-b1a1-11ec-bef4-a3721546ddbf","versionString":"v-6c26a2411a"}},"section":"tasks","timestamp":"2022-04-01T09:50:18.451Z","level":"silly","allSections":["tasks"]}
+{"msg":"Currently in progress [stage-build.symlink-test.2376ec11-b1a1-11ec-bef4-a3721546ddbf]","section":"","timestamp":"2022-04-01T09:50:18.451Z","level":"silly","allSections":[]}
+{"msg":"Syncing module sources (2 files)...","section":"symlink-test","timestamp":"2022-04-01T09:50:18.453Z","level":"verbose","allSections":["symlink-test"]}
+{"msg":"Skipping syncing from source for local exec module","section":"","timestamp":"2022-04-01T09:50:18.453Z","level":"silly","allSections":["symlink-test"]}
+{"msg":"Syncing module sources (2 files)... - Done (took 0 sec)","section":"symlink-test","timestamp":"2022-04-01T09:50:18.454Z","level":"verbose","allSections":["symlink-test"]}
+{"msg":"Completed task stage-build.symlink-test.2376ec11-b1a1-11ec-bef4-a3721546ddbf (took 0.003 sec)","metadata":{"task":{"type":"stage-build","key":"stage-build.symlink-test","status":"success","uid":"2376ec11-b1a1-11ec-bef4-a3721546ddbf","versionString":"v-6c26a2411a","durationMs":3}},"section":"tasks","timestamp":"2022-04-01T09:50:18.454Z","level":"silly","allSections":["tasks"]}
+{"msg":"Remaining tasks 1","section":"","timestamp":"2022-04-01T09:50:18.454Z","level":"silly","allSections":[]}
+{"msg":"Processing task build.symlink-test.2376ec10-b1a1-11ec-bef4-a3721546ddbf","metadata":{"task":{"type":"build","key":"build.symlink-test","status":"active","uid":"2376ec10-b1a1-11ec-bef4-a3721546ddbf","versionString":"v-6c26a2411a"}},"section":"tasks","timestamp":"2022-04-01T09:50:18.454Z","level":"silly","allSections":["tasks"]}
+{"msg":"Currently in progress [build.symlink-test.2376ec10-b1a1-11ec-bef4-a3721546ddbf]","section":"","timestamp":"2022-04-01T09:50:18.454Z","level":"silly","allSections":[]}
+{"msg":"Getting build status for v-6c26a2411a...","section":"symlink-test","timestamp":"2022-04-01T09:50:18.455Z","level":"info","allSections":["symlink-test"]}
+{"msg":"Getting 'getBuildStatus' handler for module 'symlink-test' (type 'exec')","section":"","timestamp":"2022-04-01T09:50:18.457Z","level":"silly","allSections":[]}
+{"msg":"Calling getBuildStatus handler for module symlink-test","section":"","timestamp":"2022-04-01T09:50:18.459Z","level":"silly","allSections":[]}
+{"msg":"Building version v-6c26a2411a...","section":"symlink-test","timestamp":"2022-04-01T09:50:18.459Z","level":"info","allSections":["symlink-test"]}
+{"msg":"Getting 'build' handler for module 'symlink-test' (type 'exec')","section":"","timestamp":"2022-04-01T09:50:18.461Z","level":"silly","allSections":["symlink-test"]}
+{"msg":"Calling build handler for module symlink-test","section":"","timestamp":"2022-04-01T09:50:18.463Z","level":"silly","allSections":["symlink-test"]}
+{"msg":"Building version v-6c26a2411a... - Done (took 0 sec)","section":"symlink-test","timestamp":"2022-04-01T09:50:18.464Z","level":"info","allSections":["symlink-test"]}
+{"msg":"Completed task build.symlink-test.2376ec10-b1a1-11ec-bef4-a3721546ddbf (took 0.012 sec)","metadata":{"task":{"type":"build","key":"build.symlink-test","status":"success","uid":"2376ec10-b1a1-11ec-bef4-a3721546ddbf","versionString":"v-6c26a2411a","durationMs":12}},"section":"tasks","timestamp":"2022-04-01T09:50:18.466Z","level":"silly","allSections":["tasks"]}
+{"msg":"Remaining tasks 0","section":"","timestamp":"2022-04-01T09:50:18.466Z","level":"silly","allSections":[]}
+{"msg":"Remaining tasks 0","section":"","timestamp":"2022-04-01T09:50:18.466Z","level":"silly","allSections":[]}
+{"msg":"Done!","section":"","timestamp":"2022-04-01T09:50:18.469Z","level":"info","allSections":[]}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2022-04-01T09:50:18.471Z","level":"debug","allSections":[]}
+{"msg":"Tracking Run Command event.\nPayload:\n  {\"userId\":\"7c30464e-780a-4566-961a-0560255fdfdb\",\"event\":\"Run Command\",\"properties\":{\"projectId\":\"d5847900f84a46753ec83ca938d186fcba637f3bb0e07df4d49b89b3cecd34cca2b90370ba8901f49e69470c5d85ff4e94cbd0dbbee2b70b9caf96add5b499ab\",\"projectIdV2\":\"like-ugly-beyond_d5847900f84a46753ec83ca938d186fc\",\"projectName\":\"3c47d9ae941b80991380f9f20ad38308088a4d2dd8c9678e188eb16cca118b83d8304a34c82dcec429b0559967d19ad15a40ae679f26438d816ba243aa078a92\",\"projectNameV2\":\"eminent-impartial-orange_3c47d9ae941b80991380f9f20ad38308\",\"isLoggedIn\":false,\"ciName\":null,\"system\":{\"platform\":\"linux\",\"platformVersion\":\"5.4.72-microsoft-standard-WSL2\",\"gardenVersion\":\"0.12.38\"},\"isCI\":false,\"sessionId\":\"6fa4bef1-5666-4582-9cfc-69fb263915c7\",\"projectMetadata\":{\"modulesCount\":1,\"moduleTypes\":[\"exec\"],\"tasksCount\":0,\"servicesCount\":0,\"testsCount\":0},\"name\":\"build\"}}","section":"","timestamp":"2022-04-01T09:50:18.666Z","level":"silly","allSections":[]}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2022-04-01T09:50:18.974Z","level":"debug","allSections":[]}

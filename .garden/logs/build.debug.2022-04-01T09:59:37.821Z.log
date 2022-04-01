@@ -1,0 +1,34 @@
+
+[2022-04-01T09:59:37.848Z] Scanning project root at /home/tc/projects/test-symlink
+→ Includes: **/*garden.y*ml
+→ Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2022-04-01T09:59:37.868Z] Found 2 files in project root /home/tc/projects/test-symlink
+
+[2022-04-01T09:59:37.902Z] Getting status...
+
+[2022-04-01T09:59:38.779Z] Getting status... → Cached
+
+[2022-04-01T09:59:38.782Z] Run with --force-refresh to force a refresh of provider statuses.
+
+[2022-04-01T09:59:38.795Z] Scanning module root at /home/tc/projects/test-symlink
+→ Includes: (none)
+→ Excludes: .git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2022-04-01T09:59:38.823Z] Found 5 files in module root /home/tc/projects/test-symlink
+
+[2022-04-01T09:59:38.833Z] Syncing module sources (4 files)...
+
+[2022-04-01T09:59:38.833Z] Syncing module sources (4 files)... → Done (took 0 sec)
+
+[2022-04-01T09:59:38.837Z] Getting build status for v-1afad76049...
+
+[2022-04-01T09:59:38.842Z] Building version v-1afad76049...
+
+[2022-04-01T09:59:38.847Z] Building version v-1afad76049... → Done (took 0 sec)
+
+[2022-04-01T09:59:38.852Z] Done! 
+
+[2022-04-01T09:59:38.853Z] Done flushing all events and log entries.
+
+[2022-04-01T09:59:39.359Z] Done flushing all events and log entries.

@@ -1,0 +1,9 @@
+{
+    "dependencyVersions": {},
+    "versionString": "v-921d8291bc",
+    "files": [
+        "/home/tc/projects/test-symlink/.gitignore",
+        "/home/tc/projects/test-symlink/Pulumi.dev.yaml",
+        "/home/tc/projects/test-symlink/project.garden.yaml"
+    ]
+}
