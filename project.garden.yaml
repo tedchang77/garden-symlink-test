@@ -7,7 +7,7 @@ name: garden-test-symlink
 # A list of environments to configure for the project.
 environments:
   - # The name of the environment.
-    name: default
+    name: dev
 
     # Set the default namespace to use. This can be templated to be user-specific, or to use an environment variable
     # (e.g. in CI).
